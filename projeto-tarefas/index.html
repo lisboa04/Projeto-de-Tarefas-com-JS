@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tarefinha no site do Kakau</title>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <h1>Adicione sua tarefa!</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form">
+                <form action="#" name="add-tarefa">
+                    <label for="">Digite o nome da tarefa:</label>
+                    <div class="msg" id="msg"><div class="none" id="adicionado"><p>Tarefa Adicionada</p></div><div id="erro" class="none"><p>Tente novamente!</p></div></div>
+                    <input type="text" id="tarefa">
+                    <button type="submit" onclick="pegar()">Adicionar</button>
+                </form>
+            </div>
+            <div id="tarefas-add" class="tarefas-add">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by: Kauã Lisboa de Jesus</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
