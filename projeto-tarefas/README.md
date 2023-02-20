@@ -1,2 +1,0 @@
-# Projeto de listar tarefas
-## O projeto foi pensado e realizado com a finalidade do usuário preencher o campo de acordo com a tarefa que ele queira realizar, ele poderá usar a funcionalidade de apagar e concluir a tarefa!
