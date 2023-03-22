@@ -40,7 +40,9 @@ function pegar(){
     }else{
 
         let erro = document.getElementById('erro');
-        if(adicionado.style.display === 'block'){adicionado.style.display = 'none';}
+        if(adicionado.style.display === 'block'){
+            adicionado.style.display = 'none';
+        }
         erro.style.display = 'block';
     }
 
